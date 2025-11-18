@@ -17,3 +17,6 @@ git-commands-reference/
 └── troubleshooting.md
 
 ```
+
+## License
+This project comes under MIT License.

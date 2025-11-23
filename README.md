@@ -7,6 +7,7 @@ This project is for personal reference of github commands. It contains commands 
 ```
 git-commands-reference/
 ├── README.md
+|---git-terms.md
 ├── basics.md
 ├── branching.md
 ├── undoing.md

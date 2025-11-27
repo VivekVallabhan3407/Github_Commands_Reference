@@ -18,6 +18,21 @@ git-commands-reference/
 └── troubleshooting.md
 
 ```
+## 📚 Topics Covered
+```
+
+| File Name              | Description                                                             |
+| ---------------------- | ----------------------------------------------------------------------- |
+| **basics.md**          | Essential Git commands — init, status, add, commit, logs.               |
+| **branching.md**       | Creating, switching, listing, renaming, and deleting branches.          |
+| **merging.md**         | Merging branches, fast-forward vs no-ff, and resolving merge conflicts. |
+| **remotes.md**         | Working with remote repositories — add, push, fetch, pull.              |
+| **stash.md**           | Stash creation, applying, dropping, and stash workflows.                |
+| **undoing.md**         | Undoing changes — restore, reset, revert, and safe recovery commands.   |
+| **config.md**          | Git configuration — global & local settings, username, email, aliases.  |
+| **git-terms.md**       | Common Git terminology and file-state flags (A, M, D, U, etc.).         |
+| **troubleshooting.md** | Common Git errors and fixes (auth issues, conflicts, detached HEAD).    |
+```
 
 ## License
 This project comes under MIT License.

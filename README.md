@@ -2,7 +2,7 @@
 
 This project is for personal reference of github commands. It contains commands for different cases or operations in workflow of a pushing/ pulling a project on/from github. The commands are placed in seperate files with appropriate names for better understanding. It is a comprehnsive list of commands organised into seperate well-formatted markdown files.
 
-## File structure
+## Project structure
 
 ```
 git-commands-reference/

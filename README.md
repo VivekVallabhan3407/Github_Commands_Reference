@@ -25,6 +25,11 @@ This repository is organized into multiple topic-based Markdown files.
 Start with **basics.md**, then move into branching, merging, remotes, stash, etc.
 Each file contains numbered commands, examples, and explanations.
 
+## Motivation
+
+I created this repository as a personal Git reference guide so I don’t
+have to Google commands repeatedly. It helps beginners understand Git
+clearly with simple explanations and examples.
 
 
 ## 📚 Topics Covered

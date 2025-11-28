@@ -18,6 +18,15 @@ git-commands-reference/
 └── troubleshooting.md
 
 ```
+
+## How to Use This Repository
+
+This repository is organized into multiple topic-based Markdown files.
+Start with **basics.md**, then move into branching, merging, remotes, stash, etc.
+Each file contains numbered commands, examples, and explanations.
+
+
+
 ## 📚 Topics Covered
 ```
 

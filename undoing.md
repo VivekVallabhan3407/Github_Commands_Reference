@@ -4,6 +4,7 @@ This page explains the essential Git commands for undoing mistakes — including
 Each section includes the command, usage example, and a clear explanation.
 
 ## 🔄 1. Unstage Files (Move from Staged → Unstaged)
+
 ### 1.1 Unstage a Single File
 ```
 git restore --staged <file>
@@ -19,6 +20,7 @@ git restore --staged .
 Moves every staged file back to the unstaged area.
 
 ## 📝 2. Discard Working Directory Changes
+
 ### 2.1 Discard Changes in a File
 ```
 git restore <file>
@@ -35,6 +37,7 @@ git restore .
 Resets all tracked files in the working directory to their last commit.
 
 ## ♻️ 3. Revert a Commit (Safe, Public History)
+
 ### 3.1 Revert a Specific Commit
 ```
 git revert <commit-hash>
@@ -51,6 +54,7 @@ git revert <old-commit>..<new-commit>
 Reverts multiple commits one by one.
 
 ## 🧹 4. Resetting Commits (Dangerous – Rewrites History)
+
 ### 4.1 Soft Reset (Keep all changes staged)
 ```
 git reset --soft <commit-hash>
@@ -76,6 +80,7 @@ Resets everything (HEAD, staging, working directory) to the target commit.
 All local changes are lost permanently.
 
 ## ✏️ 5. Fixing the Last Commit
+
 ### 5.1 Modify Last Commit Message
 ```
 git commit --amend
@@ -92,6 +97,7 @@ git commit --amend
 Stages new changes and adds them to the most recent commit.
 
 ## 🕵️ 6. View History Before Undoing
+
 ### 6.1 See Commit Log (One Line)
 ```
 git log --oneline
@@ -107,6 +113,7 @@ git log
 Shows full commit messages, authors, and timestamps.
 
 ## ❗ 7. Undo Local File Deletion
+
 ### 7.1 Restore a Deleted File (Before Commit)
 ```
 git restore <file>
@@ -115,6 +122,7 @@ git restore <file>
 Brings the file back from the last committed version.
 
 ## ❗ 8. Undo a Merge (If Not Pushed)
+
 ### 8.1 Cancel a Merge in Progress
 ```
 git merge --abort

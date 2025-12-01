@@ -81,4 +81,16 @@ git config --global init.defaultBranch main
 
 Newly initialized repos will start with main.
 
-🎨 5. Color & Output Formatting
+## 🎨 5. Color & Output Formatting
+
+### 5.1 Enable Colored Output
+```
+git config --global color.ui auto
+```
+
+### 5.2 Disable Colored Output
+```
+git config --global color.ui false
+```
+
+

@@ -189,3 +189,22 @@ Default timeout is 15 minutes.
 ```
 git config --global credential.helper "cache --timeout=7200"
 ```
+
+## 🌍 10. Proxy Configuration (If Network Blocked)
+
+### 10.1 Set Proxy
+```
+
+git config --global http.proxy http://proxyaddress:port
+```
+
+### 10.2 Unset Proxy
+```
+
+git config --global --unset http.proxy
+```
+
+🧹 11. Remove a Config Setting
+
+11.1 Remove Any Configuration
+git config --global --unset <key>

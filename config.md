@@ -56,3 +56,19 @@ Example:
 ```
 git config user.name
 ```
+
+## 📝 3. Editor Configuration
+
+### 3.1 Set VS Code as Default Editor
+```
+git config --global core.editor "code --wait"
+```
+### 3.2 Set Vim as Editor
+```
+git config --global core.editor "vim"
+```
+### 3.3 Set Notepad++ on Windows
+```
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+```
+

@@ -204,7 +204,9 @@ git config --global http.proxy http://proxyaddress:port
 git config --global --unset http.proxy
 ```
 
-🧹 11. Remove a Config Setting
+## 🧹 11. Remove a Config Setting
 
-11.1 Remove Any Configuration
+### 11.1 Remove Any Configuration
+```
 git config --global --unset <key>
+```

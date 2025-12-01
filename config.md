@@ -148,3 +148,24 @@ git mergetool
 ```
 git difftool
 ```
+
+
+## 📂 8. Line Ending Settings (Windows/macOS/Linux)
+
+### 8.1 Normalize Line Endings (recommended for all systems)
+```
+git config --global core.autocrlf true
+```
+### 8.2 Only Warn About Incorrect Line Endings
+```
+git config --global core.safecrlf warn
+```
+### 8.3 Convert LF → CRLF Automatically (Windows)
+```
+git config --global core.autocrlf true
+```
+### 8.4 Keep LF Always (Linux/Mac)
+```
+git config --global core.autocrlf input
+```
+

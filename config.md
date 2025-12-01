@@ -94,3 +94,34 @@ git config --global color.ui false
 ```
 
 
+## 🚀 6. Aliases (Shortcuts)
+
+### 6.1 Show All Aliases
+```
+git config --global --list
+```
+
+Aliases appear as alias.<name>=...
+
+Popular aliases:
+### 6.2 git st → status
+```
+git config --global alias.st "status"
+```
+### 6.3 git co → checkout
+```
+git config --global alias.co "checkout"
+```
+### 6.4 git br → branch list
+```
+git config --global alias.br "branch"
+```
+### 6.5 git lg → pretty log graph
+```
+git config --global alias.lg "log --oneline --graph --decorate --all"
+```
+### 6.6 git cm → commit with message
+```
+git config --global alias.cm "commit -m"
+```
+

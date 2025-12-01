@@ -169,3 +169,23 @@ git config --global core.autocrlf true
 git config --global core.autocrlf input
 ```
 
+## 🔐 9. Credential Storage
+
+
+9.1 Store Credentials Locally
+```
+git config --global credential.helper store
+```
+
+9.2 Cache Credentials Temporarily
+```
+git config --global credential.helper cache
+```
+
+Default timeout is 15 minutes.
+
+
+9.3 Set Custom Cache Timeout (e.g., 2 hours)
+```
+git config --global credential.helper "cache --timeout=7200"
+```

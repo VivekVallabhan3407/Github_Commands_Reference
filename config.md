@@ -125,3 +125,26 @@ git config --global alias.lg "log --oneline --graph --decorate --all"
 git config --global alias.cm "commit -m"
 ```
 
+## 🔀 7. Merge & Diff Configuration
+
+### 7.1 Set Merge Tool
+```
+git config --global merge.tool <tool-name>
+```
+### 7.2 Set Diff Tool
+```
+git config --global diff.tool <tool-name>
+```
+### 7.3 Example (VS Code as merge tool)
+```
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd "code --wait $MERGED"
+```
+### 7.4 Run the Merge Tool
+```
+git mergetool
+```
+### 7.5 Run the Diff Tool
+```
+git difftool
+```

@@ -72,3 +72,13 @@ git config --global core.editor "vim"
 git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
 ```
 
+## 📌 4. Default Branch Configuration
+
+### 4.1 Set Default Branch Name
+```
+git config --global init.defaultBranch main
+```
+
+Newly initialized repos will start with main.
+
+🎨 5. Color & Output Formatting

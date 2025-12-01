@@ -31,3 +31,28 @@ git config user.email "<your-email>"
 ```
 
 Stored in .git/config of that repo only.
+
+
+## 📋 2. Viewing Configuration
+
+### 2.1 View All Global Settings
+```
+git config --global --list
+```
+### 2.2 View All Local Settings (Repo Only)
+```
+git config --local --list
+```
+### 2.3 View All System Settings
+```
+git config --system --list
+```
+### 2.4 View a Specific Setting
+```
+git config <key>
+```
+
+Example:
+```
+git config user.name
+```

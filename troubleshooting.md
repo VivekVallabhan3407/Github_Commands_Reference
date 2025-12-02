@@ -80,3 +80,41 @@ Pull and rebase:
 git pull --rebase origin main
 ```
 
+
+## 🔀 3. Merge Conflict Troubleshooting
+
+❌ Problem: Merge conflict detected
+
+Git cannot auto-merge two branches.
+
+🔍 See conflicting files:
+```
+git status
+```
+🛠️ Fix conflicts manually:
+
+Edit files → remove conflict markers:
+
+<<<<<<< HEAD
+your changes
+=======
+their changes
+>>>>>>> branch
+
+Mark resolved:
+```
+git add <file>
+git commit
+```
+❌ You merged wrongly & want to undo it
+
+If merge is not pushed:
+```
+git merge --abort
+```
+
+If merge is committed but not pushed:
+```
+git reset --hard HEAD~1
+```
+

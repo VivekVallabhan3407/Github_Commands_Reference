@@ -4,7 +4,8 @@ This page provides solutions for the most common Git errors — authentication i
 Each problem includes causes, fixes, and example commands
 
 ## 🔐 1. Authentication & Permission Errors
-❌ Error: “Authentication failed”
+
+### (i) ❌ Error: “Authentication failed”
 
 Often happens when using HTTPS without token or using an expired token.
 
@@ -22,7 +23,7 @@ To re-enter token, run any Git command like:
 git pull
 ```
 
-❌ Error: “Permission denied (publickey)”
+### (ii) ❌ Error: “Permission denied (publickey)”
 
 Happens when using SSH without proper key setup.
 
@@ -47,7 +48,7 @@ ssh-add ~/.ssh/id_ed25519
 
 ## 🔄 2. Pull / Push Errors
 
-❌ Error: “failed to push some refs”
+### (i) ❌ Error: “failed to push some refs”
 
 You are behind the remote branch.
 
@@ -61,7 +62,7 @@ git push
 git push --force
 ```
 
-❌ Error: “Updates were rejected because the remote contains work…”
+### (ii) ❌ Error: “Updates were rejected because the remote contains work…”
 
 Means remote has commits you don't have.
 
@@ -69,7 +70,7 @@ Means remote has commits you don't have.
 ```
 git pull --rebase
 ```
-❌ Error: “non-fast-forward”
+### (iii) ❌ Error: “non-fast-forward”
 
 Your history diverged.
 
@@ -83,7 +84,7 @@ git pull --rebase origin main
 
 ## 🔀 3. Merge Conflict Troubleshooting
 
-❌ Problem: Merge conflict detected
+### (i) ❌ Problem: Merge conflict detected
 
 Git cannot auto-merge two branches.
 
@@ -106,7 +107,7 @@ Mark resolved:
 git add <file>
 git commit
 ```
-❌ You merged wrongly & want to undo it
+### (ii) ❌ You merged wrongly & want to undo it
 
 If merge is not pushed:
 ```
@@ -120,7 +121,7 @@ git reset --hard HEAD~1
 
 ## 🎯 4. Detached HEAD Issues
 
-❌ You're in “detached HEAD” state
+### (i) ❌ You're in “detached HEAD” state
 
 This happens after checking out a commit instead of a branch.
 

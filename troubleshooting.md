@@ -222,3 +222,16 @@ git remote set-url origin <url>
 git fetch --all --prune
 ```
 
+## 📁 10. .git Folder Issues
+❌ Accidentally deleted .git folder
+
+You cannot restore history unless you have backups.
+
+Only option:
+
+
+```
+git init
+git remote add origin <url>
+git fetch
+```

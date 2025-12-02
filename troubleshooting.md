@@ -192,3 +192,17 @@ git diff
 git remote -v
 ```
 
+## 🧹 8. Cleaning Repository Problems
+
+❌ Remove untracked files
+```
+git clean -f
+```
+❌ Remove untracked directories
+```
+git clean -fd
+```
+❌ Preview what will be deleted
+```
+git clean -n
+```

@@ -152,3 +152,21 @@ git restore --staged <file>
 ```
 git restore <file>
 ```
+
+## 📦 6. Stash Problems
+❌ Error: “Your local changes would be overwritten by checkout”
+
+Fix: stash your changes.
+```
+git stash
+git switch <branch>
+```
+❌ Want to apply stash but keep it
+```
+git stash apply
+```
+❌ Want to apply and remove the stash
+```
+git stash pop
+```
+

@@ -44,3 +44,39 @@ ssh-add ~/.ssh/id_ed25519
 ```
 
 ### 4. Add the public key to GitHub.
+
+## 🔄 2. Pull / Push Errors
+
+❌ Error: “failed to push some refs”
+
+You are behind the remote branch.
+
+✅ Fix (safe way)
+```
+git pull --rebase origin main
+git push
+```
+⚠️ OR force push (dangerous)
+```
+git push --force
+```
+
+❌ Error: “Updates were rejected because the remote contains work…”
+
+Means remote has commits you don't have.
+
+✅ Fix
+```
+git pull --rebase
+```
+❌ Error: “non-fast-forward”
+
+Your history diverged.
+
+✅ Fix
+
+Pull and rebase:
+```
+git pull --rebase origin main
+```
+

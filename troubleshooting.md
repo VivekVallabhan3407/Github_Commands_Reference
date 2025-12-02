@@ -206,3 +206,19 @@ git clean -fd
 ```
 git clean -n
 ```
+
+## 🌐 9. Remote & Origin Errors
+
+❌ Error: “No remote ‘origin’ exists”
+```
+git remote add origin <url>
+```
+❌ Wrong remote URL
+```
+git remote set-url origin <url>
+```
+❌ Fetch issues (corrupted)
+```
+git fetch --all --prune
+```
+

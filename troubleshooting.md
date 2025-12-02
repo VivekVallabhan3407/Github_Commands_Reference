@@ -250,3 +250,20 @@ git reset
 git fsck --full
 ```
 
+## 🗑️ 12. Reset & Hard Reset Safety
+⚠️ Warning: Never run
+```
+git reset --hard
+```
+
+unless:
+
+You know exactly what you’re discarding.
+
+Your work is committed or backed up.
+
+To safely inspect what would be lost:
+```
+git diff
+git status
+```

@@ -255,7 +255,7 @@ git fsck --full
 ```
 
 ## 🗑️ 12. Reset & Hard Reset Safety
-⚠️ Warning: Never run
+### (i) ⚠️ Warning: Never run
 ```
 git reset --hard
 ```
@@ -274,31 +274,31 @@ git status
 
 ## 🔄 13. Rebase Problems
 
-❌ Rebase stuck or wrong branch
+### (i) ❌ Rebase stuck or wrong branch
 
 Abort:
 ```
 git rebase --abort
 ```
 
-Continue after conflicts:
+### (ii) Continue after conflicts:
 ```
 git rebase --continue
 ```
 
-Skip a commit:
+### (iii) Skip a commit:
 ```
 git rebase --skip
 ```
 
 ## 🧭 14. Lost Commits Recovery
 
-Retrieve ANY lost commit using reflog:
+### (i) Retrieve ANY lost commit using reflog:
 
 ```
 git reflog
 ```
-Restore a lost commit:
+### (ii) Restore a lost commit:
 
 ```
 git switch -c restored <hash>

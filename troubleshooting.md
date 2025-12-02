@@ -173,59 +173,61 @@ git stash pop
 ```
 
 ## 🔍 7. Diagnosing Repository Issues
-❓ See what branch you are on:
+
+### (i) ❓ See what branch you are on:
 ```
 git branch
 ```
-❓ Show changed files:
+### (ii) ❓ Show changed files:
 ```
 git status
 ```
-❓ Show log with details:
+### (iii) ❓ Show log with details:
 ```
 git log --oneline --graph --decorate --all
 ```
-❓ See differences:
+### (iv) ❓ See differences:
 ```
 git diff
 ```
-❓ Check remote URL:
+### (v) ❓ Check remote URL:
 ```
 git remote -v
 ```
 
 ## 🧹 8. Cleaning Repository Problems
 
-❌ Remove untracked files
+### (i) ❌ Remove untracked files
 ```
 git clean -f
 ```
-❌ Remove untracked directories
+### (ii) ❌ Remove untracked directories
 ```
 git clean -fd
 ```
-❌ Preview what will be deleted
+### (iii) ❌ Preview what will be deleted
 ```
 git clean -n
 ```
 
 ## 🌐 9. Remote & Origin Errors
 
-❌ Error: “No remote ‘origin’ exists”
+### (i) ❌ Error: “No remote ‘origin’ exists”
 ```
 git remote add origin <url>
 ```
-❌ Wrong remote URL
+### (ii) ❌ Wrong remote URL
 ```
 git remote set-url origin <url>
 ```
-❌ Fetch issues (corrupted)
+### (iii) ❌ Fetch issues (corrupted)
 ```
 git fetch --all --prune
 ```
 
 ## 📁 10. .git Folder Issues
-❌ Accidentally deleted .git folder
+
+### (i) ❌ Accidentally deleted .git folder
 
 You cannot restore history unless you have backups.
 
@@ -240,14 +242,14 @@ git fetch
 
 ## 🧪 11. Corrupted Index or History
 
-❌ Error: “fatal: index file corrupt”
+### (i) ❌ Error: “fatal: index file corrupt”
 
 Fix:
 ```
 rm -f .git/index
 git reset
 ```
-❌ Error: “bad object”
+### (ii) ❌ Error: “bad object”
 ```
 git fsck --full
 ```

@@ -286,3 +286,16 @@ Skip a commit:
 ```
 git rebase --skip
 ```
+
+## 🧭 14. Lost Commits Recovery
+
+Retrieve ANY lost commit using reflog:
+
+```
+git reflog
+```
+Restore a lost commit:
+
+```
+git switch -c restored <hash>
+```

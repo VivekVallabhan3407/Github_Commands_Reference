@@ -170,3 +170,25 @@ git stash apply
 git stash pop
 ```
 
+## 🔍 7. Diagnosing Repository Issues
+❓ See what branch you are on:
+```
+git branch
+```
+❓ Show changed files:
+```
+git status
+```
+❓ Show log with details:
+```
+git log --oneline --graph --decorate --all
+```
+❓ See differences:
+```
+git diff
+```
+❓ Check remote URL:
+```
+git remote -v
+```
+

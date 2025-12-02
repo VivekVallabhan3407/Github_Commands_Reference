@@ -118,3 +118,17 @@ If merge is committed but not pushed:
 git reset --hard HEAD~1
 ```
 
+## 🎯 4. Detached HEAD Issues
+
+❌ You're in “detached HEAD” state
+
+This happens after checking out a commit instead of a branch.
+
+🔧 Fix: Switch back to a branch
+```
+git switch main
+```
+Save your work as a proper branch:
+```
+git switch -c new-branch-name
+```

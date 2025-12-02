@@ -136,37 +136,38 @@ git switch -c new-branch-name
 
 ## ♻️ 5. Undoing Mistakes
 
-❌ Undo last commit (keep changes)
+### (i) ❌ Undo last commit (keep changes)
 ```
 git reset --soft HEAD~1
 ```
-❌ Undo last commit (discard changes)
+### (ii) ❌ Undo last commit (discard changes)
 ```
 git reset --hard HEAD~1
 
 ```
-❌ Undo staged file
+### (iii) ❌ Undo staged file
 ```
 git restore --staged <file>
 ```
-❌ Undo unstaged file
+### (iv) ❌ Undo unstaged file
 ```
 git restore <file>
 ```
 
 ## 📦 6. Stash Problems
-❌ Error: “Your local changes would be overwritten by checkout”
+
+### (i) ❌ Error: “Your local changes would be overwritten by checkout”
 
 Fix: stash your changes.
 ```
 git stash
 git switch <branch>
 ```
-❌ Want to apply stash but keep it
+### (ii) ❌ Want to apply stash but keep it
 ```
 git stash apply
 ```
-❌ Want to apply and remove the stash
+### (iii) ❌ Want to apply and remove the stash
 ```
 git stash pop
 ```

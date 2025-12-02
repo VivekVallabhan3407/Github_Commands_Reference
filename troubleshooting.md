@@ -267,3 +267,22 @@ To safely inspect what would be lost:
 git diff
 git status
 ```
+
+## 🔄 13. Rebase Problems
+
+❌ Rebase stuck or wrong branch
+
+Abort:
+```
+git rebase --abort
+```
+
+Continue after conflicts:
+```
+git rebase --continue
+```
+
+Skip a commit:
+```
+git rebase --skip
+```

@@ -235,3 +235,18 @@ git init
 git remote add origin <url>
 git fetch
 ```
+
+## 🧪 11. Corrupted Index or History
+
+❌ Error: “fatal: index file corrupt”
+
+Fix:
+```
+rm -f .git/index
+git reset
+```
+❌ Error: “bad object”
+```
+git fsck --full
+```
+

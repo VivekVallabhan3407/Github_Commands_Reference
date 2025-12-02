@@ -132,3 +132,23 @@ Save your work as a proper branch:
 ```
 git switch -c new-branch-name
 ```
+
+## ♻️ 5. Undoing Mistakes
+
+❌ Undo last commit (keep changes)
+```
+git reset --soft HEAD~1
+```
+❌ Undo last commit (discard changes)
+```
+git reset --hard HEAD~1
+
+```
+❌ Undo staged file
+```
+git restore --staged <file>
+```
+❌ Undo unstaged file
+```
+git restore <file>
+```

@@ -134,3 +134,18 @@ git add .
 git rebase --continue
 ```
 
+## 🗑 8. Dropping Commits
+
+To delete a commit from history:
+```
+git rebase -i HEAD~<n>
+```
+
+Change:
+
+pick abc123 commit message
+
+
+To:
+
+drop abc123 commit message

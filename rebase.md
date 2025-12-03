@@ -178,3 +178,35 @@ git rebase --abort
 
 This returns your branch to the state before rebase.
 
+## 🔄 10. Rebase vs Merge (Quick Comparison)
+```
+Feature	Merge	Rebase
+History	Keeps full history with merge commits	Creates a clean, linear history
+Teams	Safe for shared branches	Avoid rewriting shared history
+Usage	When merging shared work	When updating your feature branch
+```
+## ⛔ 11. When Not to Rebase
+
+Do NOT rebase branches that others are working on or have already pulled.
+
+Never rebase:
+
+- main
+
+- master
+
+- shared team branches
+
+- any branch already pushed and used
+
+Rebasing rewrites commit history → can break teammates’ repos.
+
+## 🧠 12. Useful Rebase Commands Summary
+```
+git rebase <branch>           # Basic rebase
+git rebase -i HEAD~5          # Interactive rebase
+git rebase --continue         # After resolving conflict
+git rebase --skip             # Skip problematic commit
+git rebase --abort            # Cancel rebase
+git commit --amend            # Edit last commit
+```

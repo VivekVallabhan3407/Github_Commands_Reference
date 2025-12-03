@@ -149,3 +149,32 @@ pick abc123 commit message
 To:
 
 drop abc123 commit message
+
+## ⚠️ 9. Handling Rebase Conflicts
+
+If Git finds a conflict, it stops and shows the message.
+
+### 9.1 Resolve Conflicts
+
+Fix conflict in files
+
+Stage the fixed files:
+```
+git add <file>
+```
+
+Continue rebase:
+
+git rebase --continue
+
+### 9.2 Skip a Commit
+```
+git rebase --skip
+```
+### 9.3 Abort the Rebase
+```
+git rebase --abort
+```
+
+This returns your branch to the state before rebase.
+

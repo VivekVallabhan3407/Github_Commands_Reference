@@ -36,3 +36,66 @@ git rebase main feature/login
 
 Rebases feature/login onto main.
 
+## 🧹 3. Updating Feature Branches
+
+### 3.1 Bring Feature Branch Up-to-Date with Main
+```
+git checkout feature
+git fetch origin
+git rebase origin/main
+```
+
+This keeps history clean instead of merging main into your feature branch.
+
+## ✏️ 4. Interactive Rebase (Editing History)
+
+- Interactive rebase lets you:
+
+- Reorder commits
+
+- Edit commit messages
+
+- Squash multiple commits
+
+- Delete commits
+
+4.1 Start Interactive Rebase
+```
+git rebase -i HEAD~<n>
+```
+
+Example: Rewrite the last 5 commits
+```
+git rebase -i HEAD~5
+```
+
+This opens a list of commits with options like:
+- pick
+- reword
+- edit
+- squash
+- fixup
+- drop
+
+## ✂️ 5. Squashing Commits
+
+Combine multiple commits into one.
+
+### 5.1 Squash Last Two Commits (Interactive)
+```
+git rebase -i HEAD~2
+```
+
+Change:
+
+pick abc123 First commit
+pick def456 Second commit
+
+
+To:
+
+pick abc123 First commit
+squash def456 Second commit
+
+
+Save → Git combines the commits.

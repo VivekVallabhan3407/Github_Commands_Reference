@@ -99,3 +99,38 @@ squash def456 Second commit
 
 
 Save → Git combines the commits.
+
+## 📝 6. Editing Commit Messages
+
+### 6.1 Reword the Last Commit (Without Rebase)
+```
+git commit --amend
+```
+### 6.2 Reword Older Commits
+```
+git rebase -i HEAD~<n>
+```
+
+Set the desired commit to:
+
+reword
+
+## 🔧 7. Editing Commit Content
+
+### 7.1 Edit an Older Commit
+```
+git rebase -i HEAD~<n>
+```
+
+Change the commit to:
+
+edit
+
+
+Git stops at that commit → you modify files → stage changes → continue:
+
+```
+git add .
+git rebase --continue
+```
+

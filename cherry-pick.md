@@ -130,3 +130,24 @@ If already pushed, use:
 ```
 git revert <commit-hash>
 ```
+
+## 📌 9. Best Practices & Warnings
+✔ Good Use Cases
+
+- Single commit bug fixes
+
+- Selective patching
+
+- Pulling useful work from unstable branches
+
+✖ Avoid Cherry-Picking When
+
+- The commit depends on previous commits
+
+- There are many related commits — use merge or rebase instead
+
+- It will cause duplication of history
+
+⚠ Warning
+
+Cherry-picking duplicates commit hashes → may cause confusion in large teams.

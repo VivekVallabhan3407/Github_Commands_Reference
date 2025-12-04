@@ -38,7 +38,7 @@ clearly with simple explanations and examples.
 
 | File Name              | Description                                                             |
 | ---------------------- | ----------------------------------------------------------------------- |
-| **basics.md**          | Essential Git commands — init, status, add, commit, logs.               |
+| ** basics.md **        | Essential Git commands — init, status, add, commit, logs.               |
 | **branching.md**       | Creating, switching, listing, renaming, and deleting branches.          |
 | **merging.md**         | Merging branches, fast-forward vs no-ff, and resolving merge conflicts. |
 | **remotes.md**         | Working with remote repositories — add, push, fetch, pull.              |

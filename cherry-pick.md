@@ -98,3 +98,16 @@ Example:
 git cherry-pick -X ours <hash>
 ```
 
+## 📌 6. Cherry-Pick in Detached HEAD
+
+If you cherry-pick while not on any branch:
+```
+git checkout <branch>
+git cherry-pick <hash>
+
+```
+or use temporary branch:
+```
+git switch -c temp
+git cherry-pick <hash>
+```

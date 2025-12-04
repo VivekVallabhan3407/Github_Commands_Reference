@@ -47,6 +47,7 @@ clearly with simple explanations and examples.
 | **config.md**          | Git configuration — global & local settings, username, email, aliases.  |
 | **git-terms.md**       | Common Git terminology and file-state flags (A, M, D, U, etc.).         |
 | **troubleshooting.md** | Common Git errors and fixes (auth issues, conflicts, detached HEAD).    |
+| **cherry-pick.md**     | Includes commands for cherry-picking commits and best practices.        |
 ```
 
 ## License

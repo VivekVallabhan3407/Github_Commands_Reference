@@ -16,3 +16,15 @@ Cherry-picking means selecting one or more specific commits from any branch and 
 - Move selected commits from a messy experimental branch to a clean main branch.
 
 - Apply a commit to many branches (hotfixes).
+
+## 📌 2. Basic Cherry-Pick Usage
+
+➤ Cherry-pick a single commit
+```
+git cherry-pick <commit-hash>
+```
+Example
+```
+git cherry-pick a3f52c1
+```
+

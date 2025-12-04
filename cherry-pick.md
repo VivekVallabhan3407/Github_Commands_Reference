@@ -67,3 +67,34 @@ Abort if things get messy
 ```
 git cherry-pick --abort
 ```
+
+## 📌 5. Common Options
+➤ --no-commit / -n
+
+Apply changes without creating a commit.
+```
+git cherry-pick -n <hash>
+```
+
+Useful to combine multiple commits into one final commit.
+
+➤ --edit
+
+Open editor to modify commit message:
+```
+git cherry-pick --edit <hash>
+```
+➤ --signoff
+
+Adds “Signed-off-by” line automatically.
+```
+git cherry-pick -s <hash>
+```
+➤ --strategy=<strategy>
+
+Specify merge strategy during cherry-pick.
+Example:
+```
+git cherry-pick -X ours <hash>
+```
+

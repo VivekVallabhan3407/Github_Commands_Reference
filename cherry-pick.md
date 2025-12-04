@@ -111,3 +111,22 @@ or use temporary branch:
 git switch -c temp
 git cherry-pick <hash>
 ```
+## 📌 7. Cherry-Pick from Another Branch
+Example
+
+Bring commit from feature/ui into main:
+```
+git switch main
+git cherry-pick <commit-hash-from-feature-ui>
+```
+## 📌 8. Undo a Cherry-Pick
+
+(If it was the most recent commit)
+```
+git reset --hard HEAD~1
+```
+
+If already pushed, use:
+```
+git revert <commit-hash>
+```

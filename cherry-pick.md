@@ -28,3 +28,22 @@ Example
 git cherry-pick a3f52c1
 ```
 
+## 📌 3. Cherry-Pick Multiple Commits
+
+➤ Pick several commits individually
+```
+git cherry-pick <hash1> <hash2> <hash3>
+```
+➤ Pick a continuous range of commits
+(From A to B, including both)
+```
+git cherry-pick A^..B
+
+```
+or
+```
+git cherry-pick A..B
+```
+
+
+(Some prefer A^..B for clarity because it includes A.)

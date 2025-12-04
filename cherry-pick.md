@@ -47,3 +47,23 @@ git cherry-pick A..B
 
 
 (Some prefer A^..B for clarity because it includes A.)
+
+## 📌 4. Cherry-Pick With Conflicts
+
+If conflicts occur:
+
+Step 1 — Fix conflicts
+# open files, resolve conflicts manually
+
+Step 2 — Mark files as resolved
+```
+git add .
+```
+Step 3 — Continue cherry-pick
+```
+git cherry-pick --continue
+```
+Abort if things get messy
+```
+git cherry-pick --abort
+```

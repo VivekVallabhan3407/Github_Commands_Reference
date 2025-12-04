@@ -15,6 +15,7 @@ git-commands-reference/
 ├── stash.md
 ├── remotes.md
 ├── config.md
+├── cherry-pick.md
 └── troubleshooting.md
 
 ```

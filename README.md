@@ -49,6 +49,8 @@ clearly with simple explanations and examples.
 |   git-terms.md         | Common Git terminology and file-state flags (A, M, D, U, etc.).         |
 |   troubleshooting.md   | Common Git errors and fixes (auth issues, conflicts, detached HEAD).    |
 |   cherry-pick.md       | Includes commands for cherry-picking commits and best practices.        |
+|   ignore.md            | Includes commands for making .gitignore file and best practices.        |
+
 ```
 
 ## License

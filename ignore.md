@@ -65,3 +65,24 @@ logs/*.log
 temp*
 debug*
 ```
+
+## 🔍 4. Advanced Ignore Patterns
+
+➤ Ignore using wildcard in the middle:
+```
+*config*
+```
+➤ Ignore root-only file:
+```
+/config.json
+```
+➤ Ignore folder but not its subfolder:
+```
+docs/*
+!docs/important/
+```
+➤ Ignore everything in folder but allow one file:
+```
+assets/*
+!assets/logo.png
+```

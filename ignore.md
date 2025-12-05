@@ -202,3 +202,14 @@ git check-ignore -v node_modules/
 ```
 
 
+## ⭐ 10. Best Practices
+
+- Always ignore sensitive files (.env, API keys)
+
+- Ignore build artifacts (dist, build/)
+
+- Use a global ignore file for OS junk files
+
+- Never ignore source code accidentally
+
+- Keep .gitignore clean and organized with comments

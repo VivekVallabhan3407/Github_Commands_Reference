@@ -97,3 +97,22 @@ You can add comments for clarity:
 # Node modules
 node_modules/
 ```
+
+## 🧹 6. Stop Tracking a File Already Tracked
+
+.gitignore does NOT remove files already tracked.
+
+To stop tracking a file:
+```
+git rm --cached <file>
+```
+
+Example:
+```
+git rm --cached .env
+```
+
+Then commit:
+```
+git commit -m "Stop tracking .env"
+```

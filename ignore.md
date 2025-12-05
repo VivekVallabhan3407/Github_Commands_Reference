@@ -137,3 +137,35 @@ Thumbs.db
 ```
 git config --global core.excludesfile ~/.gitignore_global
 ```
+
+## 📚 8. Common .gitignore Examples
+➤ Node.js
+```
+node_modules/
+dist/
+.env
+*.log
+```
+➤ Python
+```
+__pycache__/
+*.pyc
+.env
+```
+➤ React / Vite
+```
+node_modules/
+dist/
+.env.local
+```
+➤ Java
+```
+*.class
+target/
+```
+➤ Linux/Mac/Windows
+```
+.DS_Store
+Thumbs.db
+```
+

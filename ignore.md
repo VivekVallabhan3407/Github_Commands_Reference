@@ -169,3 +169,36 @@ target/
 Thumbs.db
 ```
 
+## ❗ 9. Troubleshooting Ignore Issues
+✔ File still showing even after adding to .gitignore?
+
+It’s probably already tracked.
+
+Fix:
+```
+git rm --cached <file>
+```
+✔ .gitignore not working for nested folders?
+
+Ensure correct pattern:
+
+Bad:
+```
+logs
+```
+
+Good:
+```
+logs/
+```
+✔ Checking which .gitignore rule applies to a file
+```
+git check-ignore -v <file>
+```
+
+Example:
+```
+git check-ignore -v node_modules/
+```
+
+

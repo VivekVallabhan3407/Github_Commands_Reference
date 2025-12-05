@@ -116,3 +116,24 @@ Then commit:
 ```
 git commit -m "Stop tracking .env"
 ```
+
+## 🌍 7. Global Git Ignore
+
+You can set a global ignore file for all repos on your system.
+
+➤ Step 1 — Create file:
+```
+touch ~/.gitignore_global
+```
+➤ Step 2 — Add rules inside it
+
+(Example)
+```
+*.log
+.DS_Store
+Thumbs.db
+```
+➤ Step 3 — Configure Git to use it:
+```
+git config --global core.excludesfile ~/.gitignore_global
+```

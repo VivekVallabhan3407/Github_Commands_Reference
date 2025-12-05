@@ -27,3 +27,41 @@ touch .gitignore
 ```
 
 Then add patterns inside it to ignore specific files.
+
+## 🎯 3. Basic Ignore Rules
+
+➤ Ignore a single file:
+```
+secret.txt
+```
+➤ Ignore a directory:
+```
+node_modules/
+dist/
+build/
+```
+➤ Ignore all files with an extension:
+```
+*.log
+*.tmp
+*.env
+```
+➤ Ignore all files in all folders:
+```
+*.DS_Store
+*.class
+```
+➤ Ignore everything except something:
+```
+*.txt
+!important.txt
+```
+➤ Ignore files in a specific folder only:
+```
+logs/*.log
+```
+➤ Ignore all files starting with a pattern:
+```
+temp*
+debug*
+```

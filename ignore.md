@@ -86,3 +86,14 @@ docs/*
 assets/*
 !assets/logo.png
 ```
+
+## 📌 5. Commenting Inside .gitignore
+
+You can add comments for clarity:
+```
+# Logs
+*.log
+
+# Node modules
+node_modules/
+```

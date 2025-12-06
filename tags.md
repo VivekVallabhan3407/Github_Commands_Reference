@@ -88,3 +88,25 @@ git push origin <tag-name>
 ```
 git push origin --tags
 ```
+
+## ❌ 6. Deleting Tags
+
+➤ Delete a local tag
+```
+git tag -d <tag-name>
+```
+
+Example:
+
+git tag -d v1.0.0
+
+➤ Delete a remote tag
+```
+git push origin --delete <tag-name>
+```
+
+Example:
+```
+git push origin --delete v1.0.0
+```
+

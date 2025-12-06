@@ -8,3 +8,16 @@ This file explains everything about Git tags — what they are, why they are use
 
 Git tags are used to mark important points in history, usually releases such as v1.0, v2.1, etc.
 Tags are not meant to move (unlike branches). They act like permanent labels.
+
+## ⭐ 1. Types of Git Tags
+### ✔️ 1.1 Lightweight Tag
+
+A simple name pointing directly to a commit.
+```
+git tag <tag-name>
+```
+
+Example:
+```
+git tag v1.0.0
+```

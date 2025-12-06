@@ -146,3 +146,22 @@ v1.1.0 — added new features
 v1.1.1 — bug fixes
 ```
 Tags make releases easy and trackable.
+
+## 📚 9. Common Use Cases
+
+✔ Marking production releases
+```
+git tag -a v1.0.0 -m "Production build"
+```
+✔ Marking sprint milestones
+```
+git tag sprint-5-end
+```
+✔ Marking major code refactors
+```
+git tag refactor-frontend
+```
+✔ Marking hotfix commits
+```
+git tag hotfix-login-bug
+```

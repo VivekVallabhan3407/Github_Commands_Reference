@@ -16,6 +16,7 @@ git-commands-reference/
 ├── remotes.md
 ├── config.md
 ├── cherry-pick.md
+├── tag.md
 ├── ignore.md
 └── troubleshooting.md
 

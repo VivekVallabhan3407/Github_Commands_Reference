@@ -54,3 +54,14 @@ git tag v2.0.0 a3f5e9d
 ```
 git tag -a v2.1.0 -m "Added authentication system"
 ```
+
+## 📄 3. Listing Tags
+
+➤ List all tags
+```
+git tag
+```
+➤ Search tags matching a pattern
+```
+git tag -l "v2.*"
+```

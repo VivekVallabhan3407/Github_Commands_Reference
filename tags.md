@@ -77,3 +77,14 @@ Example:
 ```
 git show v1.0.0
 ```
+
+## 🔄 5. Sharing Tags with Remote
+
+➤ Push a single tag
+```
+git push origin <tag-name>
+```
+➤ Push all local tags
+```
+git push origin --tags
+```

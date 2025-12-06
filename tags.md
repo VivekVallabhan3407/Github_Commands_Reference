@@ -21,3 +21,17 @@ Example:
 ```
 git tag v1.0.0
 ```
+
+### ✔️ 1.2 Annotated Tag
+
+Contains metadata — message, tagger name, email, and date.
+```
+git tag -a <tag-name> -m "Tag message"
+
+```
+Example:
+```
+git tag -a v1.0.0 -m "Initial release"
+```
+
+Annotated tags are preferred for releases.

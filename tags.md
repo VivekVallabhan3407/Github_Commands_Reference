@@ -65,3 +65,15 @@ git tag
 ```
 git tag -l "v2.*"
 ```
+
+## ✏️ 4. Viewing Tag Details
+
+➤ Show info about an annotated tag:
+```
+git show <tag-name>
+
+```
+Example:
+```
+git show v1.0.0
+```

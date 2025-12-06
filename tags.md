@@ -110,3 +110,21 @@ Example:
 git push origin --delete v1.0.0
 ```
 
+## 📝 7. Updating (Moving) a Tag
+
+Tags normally should not move, but it is technically possible.
+
+➤ Move a tag to a different commit:
+```
+git tag -f <tag-name> <commit-hash>
+```
+
+Example:
+```
+git tag -f v1.0.0 HEAD~1
+```
+➤ Force-push the updated tag
+```
+git push origin -f <tag-name>
+```
+

@@ -165,3 +165,16 @@ git tag refactor-frontend
 ```
 git tag hotfix-login-bug
 ```
+
+## 💡 10. Best Practices
+
+- Prefer annotated tags over lightweight tags.
+
+- Use semantic versioning (v1.2.3) for clarity.
+
+- Always push tags after creating important releases.
+
+- Never move or delete tags unless absolutely necessary.
+
+- Tag meaningful events, not random commits.
+

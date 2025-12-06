@@ -35,3 +35,22 @@ git tag -a v1.0.0 -m "Initial release"
 ```
 
 Annotated tags are preferred for releases.
+
+## 📥 2. Creating Tags
+➤ Tagging the Latest Commit
+```
+git tag v2.0.0
+```
+➤ Tagging a Specific Commit
+```
+git tag v2.0.0 <commit-hash>
+```
+
+Example:
+```
+git tag v2.0.0 a3f5e9d
+```
+➤ Create Annotated Tag
+```
+git tag -a v2.1.0 -m "Added authentication system"
+```

@@ -128,3 +128,21 @@ git tag -f v1.0.0 HEAD~1
 git push origin -f <tag-name>
 ```
 
+⚠️ Warning: Moving tags can break other people's builds.
+
+## 📦 8. Creating Release Versions (Semantic Versioning)
+
+Common convention:
+```
+v<major>.<minor>.<patch>
+```
+
+Examples:
+```
+v1.0.0 — first stable release
+
+v1.1.0 — added new features
+
+v1.1.1 — bug fixes
+```
+Tags make releases easy and trackable.

@@ -108,7 +108,7 @@ git tag -a v1.2.0 -m "Release 1.2.0"
 git push origin v1.2.0
 ```
 
-## 🌿 3. Trunk-Based Development (Fastest Workflow)
+## 3. Trunk-Based Development (Fastest Workflow)
 
 Used by Google, Meta, and many high-speed engineering teams.
 
@@ -149,7 +149,7 @@ git rebase origin/main
 
 
 
-## 🍴 4. Forking Workflow (Open-Source Model)
+## 4. Forking Workflow (Open-Source Model)
 
 Used by large open-source projects like React, Linux, VSCode.
 
@@ -183,4 +183,12 @@ git switch -c feature/add-dark-mode
 ```
 6. Push and open a Pull Request to the original repo.
 
+## 5. Choosing the Right Workflow
 
+```
+Workflow	Best For	Pros	Cons
+GitHub Flow	Web apps, startups	Simple, fast	No structured releases
+Git Flow	Enterprises, apps with versions	Organized, stable	Heavy branching
+Trunk-Based	Big tech, CI/CD	Fast, conflict-free	Requires discipline
+Forking	Open-source	Safe & scalable	Slower sync process
+```

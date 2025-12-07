@@ -146,3 +146,41 @@ git rebase origin/main
 - Minimal merge conflicts.
 
 - Heavy use of feature flags.
+
+
+
+## 🍴 4. Forking Workflow (Open-Source Model)
+
+Used by large open-source projects like React, Linux, VSCode.
+
+✔ Ideal For:
+
+- When contributors don’t have write access
+
+- Public community contributions
+
+🔧 How It Works
+1. Fork the repository
+```
+GitHub → “Fork”
+```
+2. Clone your fork
+```
+git clone <your-fork-url>
+```
+3. Add the original repository as “upstream”
+```
+git remote add upstream <original-repo-url>
+```
+4. Sync with upstream
+```
+git fetch upstream
+git merge upstream/main
+```
+5. Create your feature
+```
+git switch -c feature/add-dark-mode
+```
+6. Push and open a Pull Request to the original repo.
+
+

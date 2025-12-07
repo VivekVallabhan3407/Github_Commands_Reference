@@ -53,6 +53,8 @@ clearly with simple explanations and examples.
 |   cherry-pick.md       | Includes commands for cherry-picking commits and best practices.        |
 |   ignore.md            | Includes commands for making .gitignore file and best practices.        |
 |   tags.md              | Includes commands for making tags and best practices.                   |
+|   workflows.md         | Includes different workflows and  and best practices.                   |
+
 
 
 ```

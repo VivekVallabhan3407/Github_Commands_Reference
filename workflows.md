@@ -107,3 +107,42 @@ git merge release/1.2.0
 git tag -a v1.2.0 -m "Release 1.2.0"
 git push origin v1.2.0
 ```
+
+## 🌿 3. Trunk-Based Development (Fastest Workflow)
+
+Used by Google, Meta, and many high-speed engineering teams.
+
+✔ Ideal For:
+
+- High deployment frequency
+
+- Very fast iteration
+
+- Small, short-lived branches
+
+🔧 How It Works
+
+1. Always work from main (trunk).
+
+2. Create tiny short-lived feature branches:
+```
+git switch -c fix-button-color
+```
+
+3. Finish work quickly (max 1–2 days).
+
+4. Rebase onto latest main:
+```
+git fetch
+git rebase origin/main
+```
+
+5. Merge back into main (squash merge).
+
+⭐ Key Rules
+
+- No long-lived branches.
+
+- Minimal merge conflicts.
+
+- Heavy use of feature flags.

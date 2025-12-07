@@ -192,3 +192,21 @@ Git Flow	Enterprises, apps with versions	Organized, stable	Heavy branching
 Trunk-Based	Big tech, CI/CD	Fast, conflict-free	Requires discipline
 Forking	Open-source	Safe & scalable	Slower sync process
 ```
+
+## 📚 6. Best Practices for Any Workflow
+
+- Keep feature branches small
+
+- Commit often
+
+- Use Pull Requests for code review
+
+- Use semantic versioning for releases
+
+- Write meaningful commit messages
+
+- Avoid long-running branches
+
+- Rebase before merging (when possible)
+
+- Tag stable releases

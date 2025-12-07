@@ -54,3 +54,56 @@ git push -u origin feature/login-ui
 ```
 main ← feature/login-ui ← PR → merge → deploy
 ```
+
+## 🌳 2. Git Flow (Enterprise / Release-Based)
+
+A more structured workflow with dedicated branches.
+
+✔ Ideal For:
+
+- Large teams
+
+- Versioned releases (v1.0, v2.0)
+
+- Long-running development cycles
+
+🔧 Branch Types
+
+- main → Production code
+
+- develop → Integration branch
+
+- feature/* → Feature development
+
+- release/* → Pre-release stabilization
+
+- hotfix/* → Quick production fixes
+
+🔧 How It Works
+✔ Start a feature
+```
+git switch develop
+git switch -c feature/payment-integration
+```
+✔ Finish a feature (merge into develop)
+```
+git switch develop
+git merge feature/payment-integration
+```
+✔ Start a release
+```
+git switch -c release/1.2.0 develop
+```
+✔ After testing, merge release into both:
+```
+git switch main
+git merge release/1.2.0
+```
+git switch develop
+git merge release/1.2.0
+```
+✔ Add a tag for production
+```
+git tag -a v1.2.0 -m "Release 1.2.0"
+git push origin v1.2.0
+```
